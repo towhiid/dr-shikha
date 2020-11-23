@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row'
-import Container from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../Images/dental.png';
 
