@@ -1,0 +1,11 @@
+.nav{
+    color: #000000;
+    padding:10px 20px;
+    margin: 0 10px;
+    transition: 1s;
+}
+.nav:hover{
+    color: whitesmoke;
+    background-color: gray;
+   
+}
