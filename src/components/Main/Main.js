@@ -11,6 +11,7 @@ const Main = () => {
         <Container className = "main">
   <Row>
     <Col sm={8}>
+      <h2 className = "text-center pb-5"><strong>Our Services</strong></h2>
     <Carousel>
   <Carousel.Item>
     <img
@@ -19,8 +20,7 @@ const Main = () => {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3 className = "text-dark">Book your date</h3>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -31,8 +31,7 @@ const Main = () => {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3 className = "text-dark">Meet specialized doctor</h3>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -43,22 +42,22 @@ const Main = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3 className = "text-dark">Take care of your teeth</h3>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel></Col>
     <Col sm={4}>
+      <h3 className = "pb-5"><strong>Appointment for Doctor</strong></h3>
     <Form>
   <Form.Row>
     <Form.Group as={Col} controlId="formGridEmail">
       <Form.Label>Email</Form.Label>
-      <Form.Control className = "bg-transparent" type="email" placeholder="Enter email" />
+      <Form.Control className = "bg-transparent" type="email" required ="" placeholder="Enter email" />
     </Form.Group>
 
     <Form.Group as={Col} controlId="formGridPassword">
       <Form.Label>Password</Form.Label>
-      <Form.Control className = "bg-transparent" type="password" placeholder="Password" />
+      <Form.Control className = "bg-transparent" type="password" required ="" placeholder="Password" />
     </Form.Group>
   </Form.Row>
 
@@ -86,7 +85,7 @@ const Main = () => {
       <Form.Control className = "bg-transparent" />
     </Form.Group>
   </Form.Row>
-
+  <input type="text" className="form-control bg-transparent w-100 text-light btn"style = {{borderRadius : 10}} value="24-11-2020" />
   <input className = "bg-transparent w-100 text-light btn" style = {{borderRadius : 10}} type="Submit" value="Submit"/>
 </Form>
     </Col>

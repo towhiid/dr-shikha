@@ -7,8 +7,9 @@
     margin: 0 10px;
     transition: 1s;
 }
-.nav:hover{
+.nav .nav-link:hover{
     color: whitesmoke;
     background-color: gray;
+    
    
 }

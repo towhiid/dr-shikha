@@ -10,23 +10,23 @@ const Navmenu = () => {
       <Nav.Link className = "nav" href="/home">Home</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link className = "nav" eventKey="">About Us</Nav.Link>
+      <Nav.Link className = "nav" href="/about" eventKey="">About Us</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link className = "nav" eventKey="">Services</Nav.Link>
+      <Nav.Link className = "nav" href="/services" eventKey="">Services</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link className = "nav" eventKey="">
+      <Nav.Link className = "nav" href="/photos" eventKey="">
         Photos
       </Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link className = "nav" eventKey="">
+      <Nav.Link className = "nav" href="/videos" eventKey="">
       Videos
       </Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link className = "nav" eventKey="">
+      <Nav.Link className = "nav" href="/contact" eventKey="">
         Contact Us
       </Nav.Link>
     </Nav.Item>
